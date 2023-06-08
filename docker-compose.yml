@@ -1,0 +1,56 @@
+version: '3.4'
+services:
+  ansible-controller:
+    hostname: ubuntu-controller
+    container_name: ansible-controller
+    build: ./ansible-controller
+    tty: true
+    working_dir: "/var/data"
+    volumes:
+      - .:/var/data
+    networks:
+      ansible.lab:
+        ipv4_address: 172.25.0.99
+
+  server01:
+    container_name: server01
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+  server02:
+    container_name: server02
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+  server03:
+    container_name: server03
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+  server04:
+    container_name: server04
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+  server05:
+    container_name: server05
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+  server06:
+    container_name: server06
+    build: ./Target_Server
+    tty: true
+    networks:
+      - ansible.lab
+
+networks:
+  ansible.lab:
+    ipam:
+      config:
+        - subnet: 172.25.0.0/24
