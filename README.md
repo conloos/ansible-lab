@@ -53,5 +53,3 @@ Sollten Fehler auftreten, bitte die Container entfernen und noch einmal instanzi
 $ docker-compose down --remove-orphans
 $ docker system prune -a
 ```
-
-![\]init\[](init_master.png?raw=true "Ansible Lab")
