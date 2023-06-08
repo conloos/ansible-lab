@@ -4,7 +4,7 @@ Dieses Repository wird genutzt um ein kleines Demo-LAB für das Ansible Flottenm
   
 ### Installation von Docker and Docker-Compose
 
-Für dieses Lab wird Docker und Docker Compose benötigt. Als Zielplattform nutzen Sie bitte Linux - empfohlen wird debian oder ubuntu. Sollten Sie Windows nutzen wird eine belibige Desktopvirtualisierung empfohlen.
+Für dieses Lab wird Docker und Docker Compose benötigt. Als Zielplattform nutzen Sie bitte Linux - empfohlen wird debian oder ubuntu. Sollten Sie Windows nutzen, wird eine belibige Desktopvirtualisierung empfohlen.
 
 ### Installation von Docker and Docker-Compose
 
@@ -16,7 +16,7 @@ Bitte installieren Sie ebenfalls die neueste Version von Docker Compose, epfohle
 
 * https://pypi.org/project/docker-compose/
 
-### Weitere Vorraussetzungen
+### Weitere Voraussetzungen
 
 Die weiteren Programme sind notwendig:
 
@@ -30,10 +30,11 @@ Bitte clonen Sie das nachfolgende Repository:
 
 ```
 $ git clone https://github.com/conloos/ansible-lab.git
+```
 
 ### Start des LABs
 
-Bitte wechseln Sie in das LAB und starten Sie wie nachfolgend beschieben die Docker Container.
+Bitte wechseln Sie in das LAB und starten Sie wie nachfolgend beschrieben die Docker Container.
 
 ```
 $ docker-compose up
@@ -48,7 +49,7 @@ Anschließend können Sie sich mit VSCode und dem remote-explorer (ssh) verbinde
 * Passwort: pass 
 
 ### Fehler
-Sollten Fehler auftreten, bitte die Container entfernen und noch einmal instanziieen.
+Sollten Fehler auftreten, bitte die Container entfernen und noch einmal instanziieren.
 ```
 $ docker-compose down --remove-orphans
 $ docker system prune -a
