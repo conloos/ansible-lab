@@ -1,10 +1,10 @@
 ## Ansible Lab
 
-Dieses Repository wird genutzt um ein kleines Demo-LAB für das Ansible Flottenmanagement zu erstellen.
+Dieses Repository wird genutzt, um ein kleines Demo-LAB für das Ansible Flottenmanagement zu erstellen.
   
 ### Installation von Docker and Docker-Compose
 
-Für dieses Lab wird Docker und Docker Compose benötigt. Als Zielplattform nutzen Sie bitte Linux - empfohlen wird debian oder ubuntu. Sollten Sie Windows nutzen, wird eine belibige Desktopvirtualisierung empfohlen.
+Für dieses Lab wird Docker und Docker Compose benötigt. Als Zielplattform nutzen Sie bitte Linux - empfohlen wird debian oder ubuntu. Sollten Sie Windows nutzen, wird eine beliebige Desktopvirtualisierung empfohlen.
 
 ### Installation von Docker and Docker-Compose
 
@@ -12,7 +12,7 @@ Bitte installieren Sie die neuste Version von Docker:
 
 * https://docs.docker.com/engine/install/ubuntu/
 
-Bitte installieren Sie ebenfalls die neueste Version von Docker Compose, epfohlen wird pip zu nutzen.
+Bitte installieren Sie ebenfalls die neueste Version von Docker Compose, empfohlen wird pip zu nutzen. Empfohlen wird ausdrücklich ein virtual environment zu nutzen. Bitte konsultieren Sie dafür eine Suchmaschine Ihrer Wahl.
 
 * https://pypi.org/project/docker-compose/
 
